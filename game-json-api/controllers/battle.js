@@ -27,7 +27,7 @@ router.post("/", async (req, res) => {
         const createdBattle = await Battle.create(req.body);
         res.json({
             status: 200,
-            data: cratedBattle
+            data: createdBattle
         });
     } catch (err) {
         console.log(err);

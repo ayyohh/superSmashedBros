@@ -1,0 +1,15 @@
+.createFighterBTN {
+  margin-top: 10px
+}
+
+.createFighterModal {
+  text-align: center;
+}
+
+.createFighterModal Button {
+  margin: 5px;
+}
+
+.createFighterModal input {
+  margin-top: 10px;
+}

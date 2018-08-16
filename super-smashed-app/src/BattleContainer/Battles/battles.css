@@ -1,0 +1,20 @@
+.battleInfo {
+  background-color: darkcyan;
+  color: white;
+  display: inline-block;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius: 25px;
+  width: 95px;
+  height: auto;
+  padding: 15px;
+  margin: 5px;
+
+}
+.battleInfo Button {
+  background-color: white;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}

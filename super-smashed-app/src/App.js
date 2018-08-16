@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Login from "./Login/";
 import MainContainer from "./MainContainer/MainContainer.js";
 // import User from "./MainContainer/UserContainer/UserContainer.js";
 // import Battle from "./MainContainer/BattleContainer/BattleContainer.js";
@@ -13,6 +12,7 @@ const My404 = () => {
     </div>
   )
 }
+
 class App extends Component {
   render() {
     console.log("SUP NERD")
@@ -26,4 +26,6 @@ class App extends Component {
     )
   }
 }
+
+
 export default App;

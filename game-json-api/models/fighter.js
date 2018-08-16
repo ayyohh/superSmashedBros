@@ -10,10 +10,9 @@ const FighterSchema = new mongoose.Schema({
     str: Number,
     dex: Number,
     int: Number,
-    atk: Number,
+    baseAtk: Number,
+    atkVariance: Number,
     userGivenName: String,
 });
-
-
 
 module.exports = mongoose.model("Fighter", FighterSchema);
